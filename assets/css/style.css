@@ -1,0 +1,9 @@
+@import './global.css';
+@import './header.css';
+
+:root{
+   --primary-color: #141414;
+   --secondary-color: #701CDA;
+   --max-width: 1200px;
+   --alignment: 0 auto;
+}
