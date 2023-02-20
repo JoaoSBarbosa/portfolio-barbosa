@@ -70,3 +70,27 @@
    background-color: #fff;
    padding: 5px 10px;
 }
+@media(max-width: 800px){
+   .experiencia{
+      grid-template-columns: 1fr;
+      gap: 40px;
+   }
+   .experiencia .subtitulo{
+      color: var(--primary-color);
+   }
+   .experiencia-texto{
+      font-size: 1.25rem;
+   }
+   .empresa-ano{
+      position: initial;
+      order: 1;
+      width: initial;
+      text-align: left;
+      color: var(--secondary-color);
+   }
+}
+@media(max-width: 488px){
+   .empresa{
+      grid-template-columns: 1fr;
+   }
+}  
