@@ -24,6 +24,13 @@ img{
    grid-template-columns: 1fr 2fr;
    gap: 100px;
 }
+.models-text{
+   font-size: 1.5rem;
+   line-height: 1.33;
+   max-width: 40ch;
+   margin-bottom: 3.75rem;
+   color: var(--tertiary-color);
+}
 
 .subtitulo{
    font-size: 8rem;
@@ -37,6 +44,6 @@ img{
    .subtitulo{
       font-size: 3rem;
       text-transform: capitalize;
-      max-width: initial;
+      max-width: initial !important;
    }
 }

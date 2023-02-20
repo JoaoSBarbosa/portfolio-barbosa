@@ -9,6 +9,8 @@
    --primary-color: #141414;
    --secondary-color: #701CDA;
    --tertiary-color: #525252;
+   --quaternary-color: #a3a3a3;
+   --white-color: #fff;
    --max-width: 1200px;
    --alignment: 0 auto;
 }

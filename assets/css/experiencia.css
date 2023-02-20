@@ -1,13 +1,7 @@
 .experiencia .subtitulo{
    color: #e0e0e0;
 }
-.experiencia-texto{
-   font-size: 1.5rem;
-   line-height: 1.33;
-   max-width: 40ch;
-   margin-bottom: 3.75rem;
-   color: var(--tertiary-color);
-}
+
 .experiencia-texto a{
    text-decoration: none;
    color: var(--secondary-color);
@@ -67,7 +61,7 @@
    font-size: .875rem;
    line-height: 1.4;
    border-radius: 4px;
-   background-color: #fff;
+   background-color: var(--white-color);
    padding: 5px 10px;
 }
 @media(max-width: 800px){
