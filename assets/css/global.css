@@ -16,3 +16,19 @@ img{
    max-width: 100%;
    display: block;
 }
+.container{
+   max-width: var(--max-width);
+   padding: 40px 20px;
+   margin: var(--alignment);
+   display: grid;
+   grid-template-columns: 1fr 2fr;
+   gap: 100px;
+}
+
+.subtitulo{
+   font-size: 8rem;
+   word-break: break-all;
+   line-height: 1;
+   text-transform: uppercase;
+   max-width: 4ch;
+}

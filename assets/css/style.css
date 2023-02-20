@@ -1,11 +1,13 @@
 @import './global.css';
 @import './header.css';
 @import './introducao.css';
+@import './experiencia.css';
 
 
 :root{
    --primary-color: #141414;
    --secondary-color: #701CDA;
+   --tertiary-color: #525252;
    --max-width: 1200px;
    --alignment: 0 auto;
 }
