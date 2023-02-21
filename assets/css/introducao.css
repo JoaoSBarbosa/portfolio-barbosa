@@ -1,6 +1,18 @@
 .intro{
    align-items: center;
 }
+
+.icon-tecs{
+   margin-bottom: 2.5rem;
+   display: flex;
+   justify-content: space-between;
+   padding: 10px 0;
+   max-width: 30ch;
+}
+.icon-tecs i{
+   font-size: 1.5rem;
+   color: var(--quaternary-color);
+}
 .intro h1{
    font-size: 4.5rem;
    line-height: 1.125;
@@ -40,6 +52,12 @@
       width: 35px;
       height: 10px;
       left: 0;
+   }
+}
+@media(max-width:700px){
+   .icon-tecs i{
+      font-size: 1rem;
+      color: var(--quaternary-color);
    }
 }
 @media(max-width:425px){
