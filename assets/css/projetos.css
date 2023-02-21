@@ -1,14 +1,15 @@
 .projetos{
    grid-template-columns: repeat(auto-fit,minmax(300px, auto));
-   grid-template-columns: repeat(2, 1fr);
+   /* grid-template-columns: repeat(2, 1fr); */
+   border: 2px solid rgb(245, 131, 255);
 
 }
-.subtitulo--projetos{
-   /* grid-column: 1/-1; */
-   /* max-width: 70ch; */
+.demais-projetos{
+   grid-column: 1/-1;
+   text-align: center;
 }
 .project{
-   border: 1px solid #e30000;
+   grid-template-columns: 1fr 2fr;
 
 }
 .project a{
@@ -20,8 +21,8 @@
 }
 .projetos-icones{
    border: 2px solid rgb(30, 0, 255);
-
 }
+
 .projeto{
    display: flex;
    flex-direction: column;
@@ -37,8 +38,23 @@
 .projetos-icones i{
    font-size: 2.5rem;
 }
+#star img,
+#cyber img,
+#pizza img{
+   /* width: 150px; */
+   object-fit: cover;
+   border: 1px solid rgb(31, 0, 209);
+   
 
+}
 
+.flex{
+   border: 1px solid darkturquoise;
+   display: flex;
+   justify-content: center;
+   
+}
 
-
-
+.card-img{
+   border: 1px solid #ec43fe;
+}

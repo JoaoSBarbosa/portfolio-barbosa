@@ -20,3 +20,41 @@ const star = [
    
  ];
  
+ const pizza = [
+  "assets/img/pizza1.jpg",
+  "assets/img/pizza2.jpg",
+  "assets/img/pizza3.jpg",
+  "assets/img/pizza4.jpg",
+  "assets/img/pizza5.jpg",
+
+ ]
+
+ const clima = [
+  "assets/img/clima1.jpg",
+  "assets/img/clima2.jpg",
+  "assets/img/clima3.jpg",
+  "assets/img/clima4.jpg",
+ ]
+
+ const galeria = [
+  "assets/img/galeria1.jpg",
+  "assets/img/galeria2.jpg",
+  "assets/img/galeria3.jpg",
+  "assets/img/galeria4.jpg",
+ ]
+
+ const quiz = [
+  "assets/img/quiz1.jpg",
+  "assets/img/quiz2.jpg",
+  "assets/img/quiz3.jpg",
+  "assets/img/quiz4.jpg",
+  "assets/img/quiz5.jpg",
+ ]
+
+ const mad = [
+  "assets/img/madland1.jpg",
+  "assets/img/madland2.jpg",
+  "assets/img/madland3.jpg",
+  "assets/img/madland4.jpg",
+  "assets/img/madland5.jpg",
+ ]
