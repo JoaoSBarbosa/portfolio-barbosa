@@ -5,13 +5,15 @@ let climaEl = elemento("#clima img");
 let galeriaEl = elemento("#galeria img");
 let quizEl = elemento("#quiz img");
 let madEl = elemento("#mad img");
-
+let urnaEl = elemento("#urna img");
 
 starbucks();
 pizzas();
 climas();
 galerias();
 quizzs();
+mads();
+urnas();
 
 function elemento(el) {
   return document.querySelector(el);
@@ -29,7 +31,7 @@ setInterval(function () {
     cyber.src = src[0];
     i = 1;
   }
-}, 2000);
+}, 3000);
 
 // Starbucks
 let s = 0;
@@ -43,7 +45,7 @@ function starbucks() {
       starEl.src = star[0];
       s = 1;
     }
-  }, 2000);
+  }, 3000);
 }
 
 
@@ -59,7 +61,7 @@ function pizzas(){
       pizzaEl.src = pizza[0];
       p = 0;
     }
-  },2100);
+  },3000);
 }
 
 // Clima
@@ -74,7 +76,7 @@ function climas(){
       climaEl.src = clima[0];
       c = 0;
     }
-  },2300)
+  },3100)
 }
 
 // Galeria
@@ -88,7 +90,7 @@ function galerias(){
       galeriaEl.src = galeria[0];
       g = 0;
     }
-  },1700)
+  },3000)
 }
 
 // Quizz
@@ -104,7 +106,37 @@ function quizzs(){
       quizEl.src = quiz[0];
       q = 0;
     }
-  },2200)
+  },2600)
 }
 
+// MadLand
 
+let m = 0;
+
+function mads(){
+  setInterval(()=>{
+    if(m < mad.length){
+      madEl.src = mad[m];
+      m++
+    }else{
+      madEl.src = mad[0];
+      m = 0;
+    }
+  }, 3000)
+}
+
+// Urna
+
+let u = 0;
+
+function urnas(){
+  setInterval(()=>{
+    if(u < urna.length){
+      urnaEl.src = urna[u];
+      u++;
+    }else{
+      urnaEl.src = urna[0];
+      u = 0;
+    }
+  },3000)
+}
