@@ -6,6 +6,7 @@
    max-width: var(--max-width);
    margin: var(--alignment);
 }
+
 .header-menu{
    display: flex;
    gap: .63rem;
@@ -20,9 +21,8 @@
    color: var(--primary-color);
    display: block;
    border-bottom: 4px solid #ffffff;
-
-
 }
+
 .header-menu a:hover{
    border-bottom: 4px solid var(--tertiary-color);
    border-radius: 15px;
@@ -51,7 +51,7 @@
       gap: 40px;
       padding: 20px;
    }
-   .header a{
+   .header-menu a{
       background-color: #f5f5f5;
       border-radius: 4px;
    }
