@@ -7,6 +7,8 @@ let quizEl = elemento("#quiz img");
 let madEl = elemento("#mad img");
 let urnaEl = elemento("#urna img");
 
+document.querySelector('.scroll-button').addEventListener('click',subirTela);
+
 starbucks();
 pizzas();
 climas();
@@ -140,3 +142,22 @@ function urnas(){
     }
   },3000)
 }
+
+function subirTela(){
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: 'smooth'
+  });
+}
+
+function hiddenButton(){
+
+  if(window.scrollY === 0){
+    document.querySelector('.scroll-button').style.display = 'none';
+  }else{
+    document.querySelector('.scroll-button').style.display = 'flex'
+  }
+}
+
+window.addEventListener('scroll', hiddenButton);
