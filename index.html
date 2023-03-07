@@ -21,7 +21,7 @@
 
   <header class="header">
     <a href="index.html">
-      <img src="assets/img/logo.svg" alt="Foto João" />
+      <img src="assets/img/logo.svg" data-anime="400" class="fadeInLeft" alt="Foto João" />
     </a>
     <nav>
       <ul class="header-menu">
@@ -34,9 +34,10 @@
   </header>
 
   <main class="container intro">
-    <a href="https://github.com/JoaoSBarbosa" target="_blank"> <img src="assets/img/foto.jpg" alt="Foto do desenvolvedor" width="203px" height="280px" />
+    <a href="https://github.com/JoaoSBarbosa" target="_blank">
+      <img src="assets/img/foto.jpg" data-anime="400" class="fadeInDown" alt="Foto do desenvolvedor" width="203px" height="280px" />
     </a>
-    <div class="intro-text ">
+    <div class="intro-text fadeInDown" data-anime="200">
       <div class="icon-tecs models-text">
         <i class="devicon-typescript-plain"></i>
         <i class="devicon-javascript-plain"></i>
@@ -55,8 +56,8 @@
   </main>
 
   <section class="container experiencia" id="experiencia" aria-label="Experiência">
-    <h2 class="subtitulo">Experiência</h2>
-    <div>
+    <h2 class="subtitulo fadeInLeft" data-anime="400">Experiência</h2>
+    <div data-anime="600" class="fadeInRight">
       <p class="experiencia-texto models-text">
         Sou um desenvolvedor front-end júnior estudando para me tornar um dev
         full-stack.<br />
@@ -95,8 +96,8 @@
 
   <!----Principais Projetos-->
   <section class="container experiencia conteiner-best" id="area-projetos" aria-label="Experiência">
-    <h2 class="subtitulo">Projetos</h2>
-    <div>
+    <h2 class="subtitulo fadeInLeft" data-anime="400">Projetos</h2>
+    <div data-anime="400" class="fadeInRight">
       <div class="empresa best">
         <h3 class="empresa-titulo titulo-best">Consulta de clima com API</h3>
         <span class="empresa-titulo titulo-best">Descrição</span>
@@ -129,9 +130,9 @@
 
   <!--PROJETOS-->
   <section class="container projetos" id="mais-projetos" aria-label="Projetos">
-    <h3 class="empresa-titulo demais-projetos">Mais projetos</h3>
+    <h3 class="empresa-titulo demais-projetos fadeInDown" data-anime="200">Mais projetos</h3>
 
-    <div class="projeto">
+    <div class="projeto fadeInDown" data-anime="400">
       <h3 class="empresa-titulo">Starbucks</h3>
       <div>
         <a href="https://project-starbucks.netlify.app/" target="_blank" id="star" class="flex">
@@ -147,7 +148,7 @@
     </div>
 
 
-    <div class="projeto">
+    <div class="projeto fadeInDown" data-anime="400">
       <h3 class="empresa-titulo">Cyberdyne</h3>
       <a href="https://cyberdynesystemv2.netlify.app/home.html" target="_blank" id="cyber" class="flex">
         <img src="assets/img/cyber1.jpg" alt="Figura cyberdynesystem">
@@ -158,7 +159,7 @@
         <i class="devicon-css3-plain-wordmark colored"></i>
       </div>
     </div>
-    <div class="projeto">
+    <div class="projeto fadeInDown" data-anime="400">
       <h3 class="empresa-titulo">Galeria</h3>
       <a class="card-img" href="https://galerias.netlify.app/" target="_blank" id="galeria">
         <img src="assets/img/galeria4.jpg" alt="Fugura Galerias de imagem">
@@ -169,7 +170,7 @@
         <i class="devicon-css3-plain-wordmark colored"></i>
       </div>
     </div>
-    <div class="projeto">
+    <div class="projeto fadeInDown" data-anime="400">
       <h3 class="empresa-titulo">Quizz</h3>
       <a href="https://joaosbarbosa.github.io/quizz-javascript/" target="_blank" id="quiz">
         <img src="assets/img/quiz5.jpg" alt="Figura projeto Quizz">
@@ -180,7 +181,7 @@
         <i class="devicon-css3-plain-wordmark colored"></i>
       </div>
     </div>
-    <div class="projeto">
+    <div class="projeto fadeInDown" data-anime="400">
       <h3 class="empresa-titulo">MadLand</h3>
       <a href="https://medicland.netlify.app/" target="_blank" id="mad">
         <img src="assets/img/madland5.jpg" alt="Figura projeto MadLand">
@@ -190,7 +191,7 @@
         <i class="devicon-css3-plain-wordmark colored"></i>
       </div>
     </div>
-    <div class="projeto">
+    <div class="projeto fadeInDown" data-anime="400">
       <h3 class="empresa-titulo">Urna Eletronica</h3>
       <a href="https://urnaeletronica-fake.netlify.app/" target="_blank" id="urna">
         <img src="assets/img/urna4.jpg" alt="Figura projeto urna eletronica">
@@ -205,8 +206,8 @@
 
   <section id="formacao" class="formacao" aria-label="Formação">
     <div class="formacao-container container">
-      <h2 class="subtitulo">Formação</h2>
-      <div>
+      <h2 class="subtitulo fadeInLeft" data-anime="400">Formação</h2>
+      <div class="fadeInRight" data-anime="400">
         <p class="formacao-texto models-text">
           Graduando <strong>análise e desenvolvimento de sistemas</strong> 🎓.
           Além disso, sempre me mantenho atualizado adquirindo conhecimentos
@@ -255,13 +256,21 @@
   </section>
   <footer class="footer " id="contato">
     <div class="footer-container container">
-      <p class="footer-texto">
+      <p class="footer-texto fadeInLeft" data-anime="400">
         Estou disponível para novos projetos no momento. Entre em contato
         comigo e marcamos uma conversa 👋
       </p>
-      <ul class="footer-contato">
-        <li>contato.jsbarbosa@gmail.com</li>
-        <li>+55 11 99453-7464</li>
+      <ul class="footer-contato fadeInRight" data-anime="400">
+        <li>
+          <a href="mailto:contato.jsbarbosa@gmail.com">
+            contato.jsbarbosa@gmail.com
+          </a>
+        </li>
+        <li>
+          <a href="tel:5511994537464">
+            +55 11 99453-7464
+          </a>
+        </li>
         <li>
           <a href="https://www.linkedin.com/in/joao-da-silva-barbosa/" target="_blank">
             <i class="devicon-linkedin-plain"></i>
@@ -281,6 +290,7 @@
       <i class="fa-solid fa-arrow-up"></i>
     </div>
   </footer>
+  <script src="./assets/js/plugin/simple-anime.js"></script>
   <script src="assets/js/src.js"></script>
   <script src="assets/js/script.js"></script>
 </body>

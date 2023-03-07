@@ -161,3 +161,7 @@ function hiddenButton(){
 }
 
 window.addEventListener('scroll', hiddenButton);
+// Plugin
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
