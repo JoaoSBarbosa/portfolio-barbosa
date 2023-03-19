@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="description" content="Desenvolvedor Front End Localizado em Itaquaquecetuba - São Paulo">
   <title>João - Desenvolvedor Front-End</title>
-  <link rel="stylesheet" href="assets/css/style.min.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet" />
@@ -23,8 +23,11 @@
     <a href="./">
       <img src="assets/img/logo.svg" data-anime="400" class="fadeInLeft" alt="Foto João" />
     </a>
-    <nav>
-      <ul class="header-menu">
+    <nav id="nav">
+      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="header-menu" aria-expanded="false">Menu 
+        <span id="line-menu"></span>
+      </button>
+      <ul class="header-menu" role="menu">
         <li><a href="#experiencia">Experiência</a></li>
         <li><a href="#formacao">Formação</a></li>
         <li><a href="#area-projetos">Projetos</a></li>
@@ -293,6 +296,7 @@
   <script src="./assets/js/plugin/simple-anime.js"></script>
   <script src="assets/js/src.js"></script>
   <script src="assets/js/script.js"></script>
+  <script src="assets/js/menuMobile.js"></script>
 </body>
 
 </html>
