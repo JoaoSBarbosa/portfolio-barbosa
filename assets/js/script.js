@@ -1,6 +1,5 @@
 function initScrollSuave() {
   const linksInternos = document.querySelectorAll('.js-navMenu a[href^="#"');
-  console.log(linksInternos);
   function scrollToSection(e) {
     e.preventDefault();
     const href = e.currentTarget.getAttribute("href");
@@ -10,8 +9,6 @@ function initScrollSuave() {
       behavior: "smooth",
       block: "start",
     });
-    console.log(href);
-    console.log(section);
   }
   linksInternos.forEach((link) => {
     link.addEventListener("click", scrollToSection);
