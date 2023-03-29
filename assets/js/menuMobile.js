@@ -15,3 +15,11 @@ function toggleMenu(evento) {
 }
 btnMobile.addEventListener("click", toggleMenu);
 btnMobile.addEventListener("touchstart ", toggleMenu);
+
+const clickMenu = document.querySelectorAll(".header-menu a");
+function closeMenu() {
+  nav.classList.remove("activo");
+}
+clickMenu.forEach((a) => {
+  a.addEventListener("click", closeMenu);
+});
