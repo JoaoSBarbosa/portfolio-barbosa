@@ -1,37 +1,23 @@
-const linksInternos = document.querySelectorAll('.js-navMenu a[href^="#"');
-console.log(linksInternos);
-function scrollToSection(e) {
-  e.preventDefault();
-  const href = e.currentTarget.getAttribute("href");
-  const section = document.querySelector(href);
-  
-  section.scrollIntoView({
-    behavior: 'smooth',
-    block: 'start'
-  })
+function initScrollSuave() {
+  const linksInternos = document.querySelectorAll('.js-navMenu a[href^="#"');
+  console.log(linksInternos);
+  function scrollToSection(e) {
+    e.preventDefault();
+    const href = e.currentTarget.getAttribute("href");
+    const section = document.querySelector(href);
 
-
-  console.log(href);
-  console.log(section);
+    section.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+    console.log(href);
+    console.log(section);
+  }
+  linksInternos.forEach((link) => {
+    link.addEventListener("click", scrollToSection);
+  });
 }
-linksInternos.forEach((link) => {
-  link.addEventListener("click", scrollToSection);
-});
-
-//
-
-
-
-
-// const headerMenu = document.querySelectorAll("header-menu li");
-
-// function liMenu(e) {
-//   e.preventDefault();
-//   console.log(e.currentTarget);
-// }
-// headerMenu.forEach((li) => {
-//   li.addEventListener("click", liMenu);
-// });
+initScrollSuave();
 
 let cyber = elemento("#cyber img");
 let starEl = elemento("#star img");
@@ -41,8 +27,6 @@ let galeriaEl = elemento("#galeria img");
 let quizEl = elemento("#quiz img");
 let madEl = elemento("#mad img");
 let urnaEl = elemento("#urna img");
-
-document.querySelector(".scroll-button").addEventListener("click", subirTela);
 
 starbucks();
 pizzas();
@@ -175,6 +159,8 @@ function urnas() {
     }
   }, 3000);
 }
+
+document.querySelector(".scroll-button").addEventListener("click", subirTela);
 
 function subirTela() {
   window.scrollTo({
