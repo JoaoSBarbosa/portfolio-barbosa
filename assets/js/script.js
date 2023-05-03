@@ -24,6 +24,8 @@ let galeriaEl = elemento("#galeria img");
 let quizEl = elemento("#quiz img");
 let madEl = elemento("#mad img");
 let urnaEl = elemento("#urna img");
+let bikeEl = elemento("#bike img");
+let animaisEl = elemento("#animais img");
 
 starbucks();
 pizzas();
@@ -32,9 +34,39 @@ galerias();
 quizzs();
 mads();
 urnas();
-
+bikecraft();
 function elemento(el) {
   return document.querySelector(el);
+}
+
+// bikecraftcraft
+let k = 0;
+function bikecraft() {
+  setInterval(() => {
+    if (k < bike.length) {
+      bikeEl.src = bike[k];
+
+      k++;
+    } else {
+      bikeEl.src = bike[0];
+      k = 1;
+    }
+  }, 3000);
+}
+
+// bikecraftcraft
+let an = 0;
+function bikecraft() {
+  setInterval(() => {
+    if (an < animais.length) {
+      animaisEl.src = animais[an];
+
+      an++;
+    } else {
+      animaisEl.src = animais[0];
+      an = 1;
+    }
+  }, 3000);
 }
 
 // CyberDyne

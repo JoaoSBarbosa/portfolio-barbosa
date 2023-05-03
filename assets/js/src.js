@@ -25,6 +25,14 @@ const pizza = [
   "assets/img/pizza3.jpg",
   "assets/img/pizza4.jpg",
 ];
+const bike = [
+  "assets/img/bike1.png",
+  "assets/img/bike2.png",
+  "assets/img/bike3.png",
+  "assets/img/bike4.png",
+];
+
+const animais = ["assets/img/animais1.png", "assets/img/animais2.png"];
 
 const clima = [
   "assets/img/clima1.jpg",
@@ -61,4 +69,4 @@ const urna = [
   "assets/img/urna2.jpg",
   "assets/img/urna3.jpg",
   "assets/img/urna4.jpg",
- ]
+];
