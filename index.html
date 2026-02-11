@@ -1,129 +1,231 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Desenvolvedor Front End Localizado em Itaquaquecetuba - São Paulo"
+    />
+    <title>João - Desenvolvedor Front-End</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Desenvolvedor Front End Localizado em Itaquaquecetuba - São Paulo" />
-  <title>João - Desenvolvedor Front-End</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="icon" href="assets/img/favicon.png" type="image/svg+xml" />
+  </head>
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="icon" href="assets/img/favicon.png" type="image/svg+xml" />
-</head>
-
-<body>
-  <header class="header">
-    <a href="./">
-      <img src="assets/img/logo.svg" data-anime="400" class="fadeInLeft" alt="Foto João" />
-    </a>
-    <nav id="nav" class="js-navMenu">
-      <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="header-menu" aria-expanded="false">
-        Menu
-        <span id="line-menu"></span>
-      </button>
-      <ul class="header-menu" role="menu">
-        <li><a href="#experiencia">Experiência</a></li>
-        <li><a href="#formacao">Formação</a></li>
-        <li><a href="#area-projetos">Projetos</a></li>
-        <li><a href="#contato">Contato</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main class="container intro">
-    <a href="https://github.com/JoaoSBarbosa" target="_blank">
-      <img src="assets/img/foto.jpg" data-anime="400" class="fadeInDown" alt="Foto do desenvolvedor" width="203px" height="280px" />
-    </a>
-    <div class="intro-text fadeInDown" data-anime="200">
-      <div class="icon-tecs models-text">
-        <i class="devicon-typescript-plain"></i>
-        <i class="devicon-javascript-plain"></i>
-        <i class="devicon-react-original"></i>
-        <i class="devicon-html5-plain"></i>
-        <i class="devicon-css3-plain"></i>
-        <i class="devicon-sass-original"></i>
-        <i class="devicon-git-plain"></i>
-        <i class="devicon-java-plain"></i>
-        <i class="devicon-mysql-plain"></i>
-      </div>
-      <h1>Desenvolvedor <br />Front End</h1>
-      <p>Localizado em Itaquaquecetuba - São Paulo 🌆</p>
-    </div>
-  </main>
-
-  <section class="container experiencia" id="experiencia" aria-label="Experiência">
-    <h2 class="subtitulo fadeInLeft" data-anime="400">Experiência</h2>
-    <div data-anime="600" class="fadeInRight">
-      <p class="experiencia-texto models-text">
-        Sou um desenvolvedor front-end júnior estudando para me tornar um dev
-        full-stack.<br />
-        Desenvolvo pequenos projetos utilizando <strong>HTML</strong>,
-        <strong>CSS</strong>, <strong>Sass</strong>,
-        <strong>JavaScript</strong>, <strong>TypeScript</strong> e
-        <strong>Wordpress</strong>. Alguns exemplos de projetos desenvolvidos
-        utilizando consumo de API e dados dinâmicos são:
-        <a href="https://barbosapizzas.netlify.app/" title="Projeto pizzaria" target="_blank">Pizzaria</a>
-        e
-        <a href="https://climaproject.netlify.app/" title="Projeto Clima com API" target="_blank">Clima atual</a>. Em Wordpress, contribui na construção do site
-        <a href="https://beerfanstore.com.br/" target="_blank" title="Site e-commerce">Beerfanstore</a>
-      </p>
-      <div class="empresa">
-        <span class="empresa-ano">2022 - atual</span>
-        <h3 class="empresa-titulo">Fanstore</h3>
-        <span class="empresa-titulo">Assistente de TI</span>
-        <p class="empresa-texto">
-          Contribuo para o desenvolvimento de sites de e-commerce em projetos
-          de empresas como AMBEV, ITAU, Cultura Inglesa, BMW e site
-          institucional. Integração com ERP e API, criação de documentação,
-          suporte técnico de TI, monitoramento e implantação de ferramentas.
-        </p>
-        <ul class="empresa-habilidades">
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>SASS</li>
-          <li>Wordpress</li>
-          <li>JavaScript</li>
-          <li>Jira</li>
-          <li>Office</li>
+  <body>
+    <header class="header">
+      <a href="./">
+        <img
+          src="assets/img/logo.svg"
+          data-anime="400"
+          class="fadeInLeft"
+          alt="Foto João"
+        />
+      </a>
+      <nav id="nav" class="js-navMenu">
+        <button
+          aria-label="Abrir Menu"
+          id="btn-mobile"
+          aria-haspopup="true"
+          aria-controls="header-menu"
+          aria-expanded="false"
+        >
+          Menu
+          <span id="line-menu"></span>
+        </button>
+        <ul class="header-menu" role="menu">
+          <li><a href="#experiencia">Experiência</a></li>
+          <li><a href="#formacao">Formação</a></li>
+          <li><a href="#area-projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
         </ul>
-      </div>
-    </div>
-  </section>
+      </nav>
+    </header>
 
-  <!----Principais Projetos-->
-  <section class="container experiencia conteiner-best" id="area-projetos" aria-label="Experiência">
-    <h2 class="subtitulo fadeInLeft" data-anime="400">Projetos</h2>
-    <div data-anime="400" class="fadeInRight">
-      <div class="empresa best">
-        <h3 class="empresa-titulo titulo-best">Consulta de clima com API</h3>
-        <span class="empresa-titulo titulo-best">Descrição</span>
-        <p>
-          Projeto simples para consumir uma API do Open Weather Map e obter
-          dados meteorológicos atuais
+    <main class="container intro">
+      <a href="https://github.com/JoaoSBarbosa" target="_blank">
+        <img
+          src="assets/img/foto.jpg"
+          data-anime="400"
+          class="fadeInDown"
+          alt="Foto do desenvolvedor"
+          width="203px"
+          height="280px"
+        />
+      </a>
+      <div class="intro-text fadeInDown" data-anime="200">
+        <div class="icon-tecs models-text">
+          <i class="devicon-typescript-plain"></i>
+          <i class="devicon-javascript-plain"></i>
+          <i class="devicon-react-original"></i>
+          <i class="devicon-html5-plain"></i>
+          <i class="devicon-css3-plain"></i>
+          <i class="devicon-sass-original"></i>
+          <i class="devicon-git-plain"></i>
+          <i class="devicon-java-plain"></i>
+          <i class="devicon-mysql-plain"></i>
+        </div>
+        <h1>Desenvolvedor <br />Full Stack Pleno</h1>
+        <p>São Paulo - SP 🌆</p>
+      </div>
+    </main>
+
+    <section
+      class="container experiencia"
+      id="experiencia"
+      aria-label="Experiência"
+    >
+      <h2 class="subtitulo fadeInLeft" data-anime="400">Experiência</h2>
+      <div data-anime="600" class="fadeInRight">
+        <p class="experiencia-texto models-text">
+          Sou Desenvolvedor Full Stack Pleno, com mais de 4 anos de experiência
+          na construção de sistemas robustos, escaláveis e bem arquitetados.
+          Atuo principalmente no backend com Java e Spring Boot, além de
+          <strong>C#</strong> com <strong>.NET</strong>, e no frontend com
+          <strong>React</strong>,<strong>Next.js </strong>e
+          <strong>Angular</strong>. Valorizo código limpo, boas práticas,
+          testabilidade, performance e segurança, utilizando também
+          <strong>Docker</strong> para padronização de ambientes e apoio ao
+          processo de deploy.
         </p>
-        <a href="https://climaproject.netlify.app/" target="_blank" id="clima" class="flex">
-          <img src="assets/img/clima4.jpg" alt="" />
-        </a>
-        <div class="projetos-icones">
-          <i class="devicon-html5-plain-wordmark colored"></i>
-          <i class="devicon-css3-plain-wordmark colored"></i>
+
+        <div class="empresa">
+          <span class="empresa-ano">2022 - 2023</span>
+          <h3 class="empresa-titulo">Fanstore</h3>
+          <span class="empresa-titulo">Assistente de Programação</span>
+          <p class="empresa-texto">
+            Responsável pelo desenvolvimento de sites de e-commerce com
+            WordPress, utilizando codificação em JavaScript, HTML5 e CSS para
+            estruturar e estilizar o conteúdo; Criação de documentação técnica
+            para auxiliar na manutenção e atualização do site, assim como na
+            integração com sistemas ERP; • Utilização de ferramentas como: Jira,
+            Trello, Analytics, Google Search Console Google Data, Workspace,
+            Hotjar e Mautic para monitoramento e análise de dados;
+          </p>
+          <ul class="empresa-habilidades">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>SASS</li>
+            <li>Wordpress</li>
+            <li>JavaScript</li>
+            <li>Jira</li>
+            <li>Office</li>
+          </ul>
+        </div>
+        <div class="empresa">
+          <span class="empresa-ano">2023 - 2025</span>
+          <h3 class="empresa-titulo">Angulo Sistema</h3>
+          <span class="empresa-titulo">Programador júnior II</span>
+          <p class="empresa-texto">
+            Responsável pelo desenvolvimento backend Java, aplicando camadas
+            service, controller, repository, DAO, e métodos CRUD para processar
+            requisições. No frontend, emprego React, Next, TypeScript, Tailwind,
+            e Flowbite, consumindo APIs REST do Java e facilitando a comunicação
+            entre frontend e backend.
+          </p>
+          <ul class="empresa-habilidades">
+            <li>Java</li>
+            <li>Spring</li>
+            <li>Next.js</li>
+            <li>MySQL</li>
+            <li>React</li>
+          </ul>
         </div>
       </div>
-      <div class="empresa best">
-        <h3 class="empresa-titulo titulo-best">Sistema de Pizzas</h3>
-        <span class="empresa-titulo titulo-best">Descrição</span>
-        <p>
-          Um sistema de compra de pizza que utiliza dados de objetos dinâmicos
-          para construir os layouts
-        </p>
-        <a href="https://barbosapizzas.netlify.app/" target="_blank" id="pizza" class="flex">
-          <img src="assets/img/pizza4.jpg" alt="" />
+    </section>
+
+    <!----Principais Projetos-->
+    <section
+      class="container experiencia conteiner-best"
+      id="area-projetos"
+      aria-label="Experiência"
+    >
+      <h2 class="subtitulo fadeInLeft" data-anime="400">Projetos</h2>
+      <div data-anime="400" class="fadeInRight">
+        <div class="empresa best">
+          <h3 class="empresa-titulo titulo-best">Consulta de clima com API</h3>
+          <span class="empresa-titulo titulo-best">Descrição</span>
+          <p>
+            Projeto simples para consumir uma API do Open Weather Map e obter
+            dados meteorológicos atuais
+          </p>
+          <a
+            href="https://climaproject.netlify.app/"
+            target="_blank"
+            id="clima"
+            class="flex"
+          >
+            <img src="assets/img/clima4.jpg" alt="" />
+          </a>
+          <div class="projetos-icones">
+            <i class="devicon-html5-plain-wordmark colored"></i>
+            <i class="devicon-css3-plain-wordmark colored"></i>
+          </div>
+        </div>
+        <div class="empresa best">
+          <h3 class="empresa-titulo titulo-best">Sistema de Pizzas</h3>
+          <span class="empresa-titulo titulo-best">Descrição</span>
+          <p>
+            Um sistema de compra de pizza que utiliza dados de objetos dinâmicos
+            para construir os layouts
+          </p>
+          <a
+            href="https://barbosapizzas.netlify.app/"
+            target="_blank"
+            id="pizza"
+            class="flex"
+          >
+            <img src="assets/img/pizza4.jpg" alt="" />
+          </a>
+          <div class="projetos-icones">
+            <i class="devicon-javascript-plain colored"></i>
+            <i class="devicon-html5-plain-wordmark colored"></i>
+            <i class="devicon-css3-plain-wordmark colored"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--PROJETOS-->
+    <section
+      class="container projetos"
+      id="mais-projetos"
+      aria-label="Projetos"
+    >
+      <h3 class="empresa-titulo demais-projetos fadeInDown" data-anime="200">
+        Mais projetos
+      </h3>
+
+      <div class="projeto fadeInDown" data-anime="400">
+        <h3 class="empresa-titulo">Bikcraft</h3>
+        <a
+          href="https://joaosbarbosa.github.io/bakcraft-project/"
+          target="_blank"
+          id="bike"
+        >
+          <img
+            src="assets/img/bike1.png"
+            alt="Figura projeto urna eletronica"
+          />
         </a>
         <div class="projetos-icones">
           <i class="devicon-javascript-plain colored"></i>
@@ -131,211 +233,227 @@
           <i class="devicon-css3-plain-wordmark colored"></i>
         </div>
       </div>
-    </div>
-  </section>
 
-  <!--PROJETOS-->
-  <section class="container projetos" id="mais-projetos" aria-label="Projetos">
-    <h3 class="empresa-titulo demais-projetos fadeInDown" data-anime="200">
-      Mais projetos
-    </h3>
-
-    <div class="projeto fadeInDown" data-anime="400">
-      <h3 class="empresa-titulo">Bikcraft</h3>
-      <a href="https://joaosbarbosa.github.io/bakcraft-project/" target="_blank" id="bike">
-        <img src="assets/img/bike1.png" alt="Figura projeto urna eletronica" />
-      </a>
-      <div class="projetos-icones">
-        <i class="devicon-javascript-plain colored"></i>
-        <i class="devicon-html5-plain-wordmark colored"></i>
-        <i class="devicon-css3-plain-wordmark colored"></i>
-      </div>
-    </div>
-
-    <div class="projeto fadeInDown" data-anime="400">
-      <h3 class="empresa-titulo">Animais Fantasticos</h3>
-      <a href="https://joaosbarbosa.github.io/animais-fantastico/" target="_blank" id="animais">
-        <img src="assets/img/animais1.png" alt="Figura projeto Animais Fantasticos" />
-      </a>
-      <div class="projetos-icones">
-        <i class="devicon-javascript-plain colored"></i>
-        <i class="devicon-html5-plain-wordmark colored"></i>
-        <i class="devicon-css3-plain-wordmark colored"></i>
-      </div>
-    </div>
-
-    <div class="projeto fadeInDown" data-anime="400">
-      <h3 class="empresa-titulo">Starbucks</h3>
-      <div>
-        <a href="https://project-starbucks.netlify.app/" target="_blank" id="star" class="flex">
-          <img src="assets/img/starbucks1.jpg" alt="Figura projeto Starbucks" />
+      <div class="projeto fadeInDown" data-anime="400">
+        <h3 class="empresa-titulo">Animais Fantasticos</h3>
+        <a
+          href="https://joaosbarbosa.github.io/animais-fantastico/"
+          target="_blank"
+          id="animais"
+        >
+          <img
+            src="assets/img/animais1.png"
+            alt="Figura projeto Animais Fantasticos"
+          />
         </a>
+        <div class="projetos-icones">
+          <i class="devicon-javascript-plain colored"></i>
+          <i class="devicon-html5-plain-wordmark colored"></i>
+          <i class="devicon-css3-plain-wordmark colored"></i>
+        </div>
       </div>
-      <div class="projetos-icones">
-        <i class="devicon-html5-plain-wordmark colored"></i>
-        <i class="devicon-css3-plain-wordmark colored"></i>
-      </div>
-      <div class="hidden"></div>
-    </div>
 
-    <div class="projeto fadeInDown" data-anime="400">
-      <h3 class="empresa-titulo">Cyberdyne</h3>
-      <a href="https://cyberdynesystemv2.netlify.app/home.html" target="_blank" id="cyber" class="flex">
-        <img src="assets/img/cyber1.jpg" alt="Figura cyberdynesystem" />
-      </a>
-      <div class="projetos-icones">
-        <i class="devicon-javascript-plain colored"></i>
-        <i class="devicon-html5-plain-wordmark colored"></i>
-        <i class="devicon-css3-plain-wordmark colored"></i>
+      <div class="projeto fadeInDown" data-anime="400">
+        <h3 class="empresa-titulo">Starbucks</h3>
+        <div>
+          <a
+            href="https://project-starbucks.netlify.app/"
+            target="_blank"
+            id="star"
+            class="flex"
+          >
+            <img
+              src="assets/img/starbucks1.jpg"
+              alt="Figura projeto Starbucks"
+            />
+          </a>
+        </div>
+        <div class="projetos-icones">
+          <i class="devicon-html5-plain-wordmark colored"></i>
+          <i class="devicon-css3-plain-wordmark colored"></i>
+        </div>
+        <div class="hidden"></div>
       </div>
-    </div>
-    <div class="projeto fadeInDown" data-anime="400">
-      <h3 class="empresa-titulo">Galeria</h3>
-      <a class="card-img" href="https://galerias.netlify.app/" target="_blank" id="galeria">
-        <img src="assets/img/galeria4.jpg" alt="Fugura Galerias de imagem" />
-      </a>
-      <div class="projetos-icones">
-        <i class="devicon-sass-original colored"></i>
-        <i class="devicon-html5-plain-wordmark colored"></i>
-        <i class="devicon-css3-plain-wordmark colored"></i>
-      </div>
-    </div>
-    <div class="projeto fadeInDown" data-anime="400">
-      <h3 class="empresa-titulo">Quizz</h3>
-      <a href="https://joaosbarbosa.github.io/quizz-javascript/" target="_blank" id="quiz">
-        <img src="assets/img/quiz5.jpg" alt="Figura projeto Quizz" />
-      </a>
-      <div class="projetos-icones">
-        <i class="devicon-javascript-plain colored"></i>
-        <i class="devicon-html5-plain-wordmark colored"></i>
-        <i class="devicon-css3-plain-wordmark colored"></i>
-      </div>
-    </div>
-    <div class="projeto fadeInDown" data-anime="400">
-      <h3 class="empresa-titulo">MadLand</h3>
-      <a href="https://medicland.netlify.app/" target="_blank" id="mad">
-        <img src="assets/img/madland5.jpg" alt="Figura projeto MadLand" />
-      </a>
-      <div class="projetos-icones">
-        <i class="devicon-html5-plain-wordmark colored"></i>
-        <i class="devicon-css3-plain-wordmark colored"></i>
-      </div>
-    </div>
-    <div class="projeto fadeInDown" data-anime="400">
-      <h3 class="empresa-titulo">Urna Eletronica</h3>
-      <a href="https://urnaeletronica-fake.netlify.app/" target="_blank" id="urna">
-        <img src="assets/img/urna4.jpg" alt="Figura projeto urna eletronica" />
-      </a>
-      <div class="projetos-icones">
-        <i class="devicon-javascript-plain colored"></i>
-        <i class="devicon-html5-plain-wordmark colored"></i>
-        <i class="devicon-css3-plain-wordmark colored"></i>
-      </div>
-    </div>
 
-    <div class="projeto fadeInDown" data-anime="400">
-      <h3 class="empresa-titulo">Bateria</h3>
-      <a href="https://drums-barbosa.netlify.app/" target="_blank" id="bateria">
-        <img src="assets/img/bateria.png" alt="Figura projeto urna eletronica" />
-      </a>
-      <div class="projetos-icones">
-        <i class="devicon-javascript-plain colored"></i>
-        <i class="devicon-html5-plain-wordmark colored"></i>
-        <i class="devicon-css3-plain-wordmark colored"></i>
+      <div class="projeto fadeInDown" data-anime="400">
+        <h3 class="empresa-titulo">Cyberdyne</h3>
+        <a
+          href="https://cyberdynesystemv2.netlify.app/home.html"
+          target="_blank"
+          id="cyber"
+          class="flex"
+        >
+          <img src="assets/img/cyber1.jpg" alt="Figura cyberdynesystem" />
+        </a>
+        <div class="projetos-icones">
+          <i class="devicon-javascript-plain colored"></i>
+          <i class="devicon-html5-plain-wordmark colored"></i>
+          <i class="devicon-css3-plain-wordmark colored"></i>
+        </div>
       </div>
-    </div>
+      <div class="projeto fadeInDown" data-anime="400">
+        <h3 class="empresa-titulo">Galeria</h3>
+        <a
+          class="card-img"
+          href="https://galerias.netlify.app/"
+          target="_blank"
+          id="galeria"
+        >
+          <img src="assets/img/galeria4.jpg" alt="Fugura Galerias de imagem" />
+        </a>
+        <div class="projetos-icones">
+          <i class="devicon-sass-original colored"></i>
+          <i class="devicon-html5-plain-wordmark colored"></i>
+          <i class="devicon-css3-plain-wordmark colored"></i>
+        </div>
+      </div>
+      <div class="projeto fadeInDown" data-anime="400">
+        <h3 class="empresa-titulo">Quizz</h3>
+        <a
+          href="https://joaosbarbosa.github.io/quizz-javascript/"
+          target="_blank"
+          id="quiz"
+        >
+          <img src="assets/img/quiz5.jpg" alt="Figura projeto Quizz" />
+        </a>
+        <div class="projetos-icones">
+          <i class="devicon-javascript-plain colored"></i>
+          <i class="devicon-html5-plain-wordmark colored"></i>
+          <i class="devicon-css3-plain-wordmark colored"></i>
+        </div>
+      </div>
+      <div class="projeto fadeInDown" data-anime="400">
+        <h3 class="empresa-titulo">MadLand</h3>
+        <a href="https://medicland.netlify.app/" target="_blank" id="mad">
+          <img src="assets/img/madland5.jpg" alt="Figura projeto MadLand" />
+        </a>
+        <div class="projetos-icones">
+          <i class="devicon-html5-plain-wordmark colored"></i>
+          <i class="devicon-css3-plain-wordmark colored"></i>
+        </div>
+      </div>
+      <div class="projeto fadeInDown" data-anime="400">
+        <h3 class="empresa-titulo">Urna Eletronica</h3>
+        <a
+          href="https://urnaeletronica-fake.netlify.app/"
+          target="_blank"
+          id="urna"
+        >
+          <img
+            src="assets/img/urna4.jpg"
+            alt="Figura projeto urna eletronica"
+          />
+        </a>
+        <div class="projetos-icones">
+          <i class="devicon-javascript-plain colored"></i>
+          <i class="devicon-html5-plain-wordmark colored"></i>
+          <i class="devicon-css3-plain-wordmark colored"></i>
+        </div>
+      </div>
 
+      <div class="projeto fadeInDown" data-anime="400">
+        <h3 class="empresa-titulo">Bateria</h3>
+        <a
+          href="https://drums-barbosa.netlify.app/"
+          target="_blank"
+          id="bateria"
+        >
+          <img
+            src="assets/img/bateria.png"
+            alt="Figura projeto urna eletronica"
+          />
+        </a>
+        <div class="projetos-icones">
+          <i class="devicon-javascript-plain colored"></i>
+          <i class="devicon-html5-plain-wordmark colored"></i>
+          <i class="devicon-css3-plain-wordmark colored"></i>
+        </div>
+      </div>
+    </section>
 
-  </section>
-
-  <section id="formacao" class="formacao" aria-label="Formação">
-    <div class="formacao-container container">
-      <h2 class="subtitulo fadeInLeft" data-anime="400">Formação</h2>
-      <div class="fadeInRight" data-anime="400">
-        <p class="formacao-texto models-text">
-          Graduando <strong>análise e desenvolvimento de sistemas</strong> 🎓.
-          Além disso, sempre me mantenho atualizado adquirindo conhecimentos
-          através de cursos online intensivos.
-        </p>
-        <ul class="faculdade-lista">
-          <li class="faculdade">
-            <span class="faculdade-tipo">Tecnólogo</span>
-            <h3 class="faculdade-curso">
-              Análise e Desenvolvimento de Sistemas
-            </h3>
-            <span class="faculdade-instituicao">UNINTER</span>
-          </li>
-          <li class="faculdade">
-            <span class="faculdade-tipo">Técnico</span>
-            <h3 class="faculdade-curso">
-              Técnico em Desenvolvimento de Sistemas
-            </h3>
-            <span class="faculdade-instituicao">Etec</span>
-          </li>
-        </ul>
-        <div class="formacao-extra">
-          <!--Cursos-->
-          <div class="cursos">
-            <h3>Cursos Intensivos</h3>
-            <ul>
-              <li>HTML5 e CSS3 <span>89h</span></li>
-              <li>JavaScript <span>77h</span></li>
-              <li>TypeScript <span>20h</span></li>
-              <li>
-                Auxiliar de Desenvolvimento de Sistemas <span>400h</span>
-              </li>
-              <li>Frond End para iniciante<span>72h</span></li>
-            </ul>
-          </div>
-          <!--Idiomas-->
-          <div class="idiomas">
-            <h3>Idiomas</h3>
-            <ul>
-              <li>Inglês<span> / Técnico</span></li>
-            </ul>
+    <section id="formacao" class="formacao" aria-label="Formação">
+      <div class="formacao-container container">
+        <h2 class="subtitulo fadeInLeft" data-anime="400">Formação</h2>
+        <div class="fadeInRight" data-anime="400">
+          <p class="formacao-texto models-text">
+            Graduado em
+            <strong>análise e desenvolvimento de sistemas</strong> 🎓. Além
+            disso, sempre me mantenho atualizado adquirindo conhecimentos
+            através de cursos online intensivos.
+          </p>
+          <ul class="faculdade-lista">
+            <li class="faculdade">
+              <span class="faculdade-tipo">Tecnólogo</span>
+              <h3 class="faculdade-curso">
+                Análise e Desenvolvimento de Sistemas
+              </h3>
+              <span class="faculdade-instituicao">UNINTER</span>
+            </li>
+            <li class="faculdade">
+              <span class="faculdade-tipo">Técnico</span>
+              <h3 class="faculdade-curso">
+                Técnico em Desenvolvimento de Sistemas
+              </h3>
+              <span class="faculdade-instituicao">Etec</span>
+            </li>
+          </ul>
+          <div class="formacao-extra">
+            <!--Cursos-->
+            <div class="cursos">
+              <h3>Cursos Intensivos</h3>
+              <ul>
+                <li>HTML5 e CSS3 <span>89h</span></li>
+                <li>JavaScript <span>77h</span></li>
+                <li>TypeScript <span>20h</span></li>
+                <li>
+                  Auxiliar de Desenvolvimento de Sistemas <span>400h</span>
+                </li>
+                <li>Frond End para iniciante<span>72h</span></li>
+              </ul>
+            </div>
+            <!--Idiomas-->
+            <div class="idiomas">
+              <h3>Idiomas</h3>
+              <ul>
+                <li>Inglês<span> / Técnico</span></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
-  <footer class="footer" id="contato">
-    <div class="footer-container container">
-      <p class="footer-texto fadeInLeft" data-anime="400">
-        Atualmente estou disponível para novos projetos. Entre em contato
-        comigo e vamos combinar. 👋
-      </p>
-      <ul class="footer-contato fadeInRight" data-anime="400">
-        <li>
-          <a href="mailto:contato.jsbarbosa@gmail.com">
-            contato.jsbarbosa@gmail.com
-          </a>
-        </li>
-        <li>
-          <a href="tel:5511994537464"> +55 11 99453-7464 </a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/joao-da-silva-barbosa/" target="_blank">
-            <i class="devicon-linkedin-plain"></i>
-            Linkedin
-          </a>
-        </li>
-        <li>
-          <a href="https://github.com/JoaoSBarbosa" target="_blank">
-            <i class="devicon-github-original"></i>
-            GitHub
-          </a>
-        </li>
-      </ul>
-      <p class="footer-copy">Barbosa. &copy; Alguns direitos reservados</p>
-    </div>
-    <div class="scroll-button">
-      <i class="fa-solid fa-arrow-up"></i>
-    </div>
-  </footer>
-  <script src="./assets/js/plugin/simple-anime.js"></script>
-  <script src="assets/js/src.js"></script>
-  <script src="assets/js/script.js"></script>
-  <script src="assets/js/menuMobile.js"></script>
-</body>
-
+    </section>
+    <footer class="footer" id="contato">
+      <div class="footer-container container">
+        <p class="footer-texto fadeInLeft" data-anime="400">
+          Atualmente estou disponível para novos projetos. Entre em contato
+          comigo e vamos combinar. 👋
+        </p>
+        <ul class="footer-contato fadeInRight" data-anime="400">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/joao-da-silva-barbosa/"
+              target="_blank"
+            >
+              <i class="devicon-linkedin-plain"></i>
+              Linkedin
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/JoaoSBarbosa" target="_blank">
+              <i class="devicon-github-original"></i>
+              GitHub
+            </a>
+          </li>
+        </ul>
+        <p class="footer-copy">Barbosa. &copy; Alguns direitos reservados</p>
+      </div>
+      <div class="scroll-button">
+        <i class="fa-solid fa-arrow-up"></i>
+      </div>
+    </footer>
+    <script src="./assets/js/plugin/simple-anime.js"></script>
+    <script src="assets/js/src.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/menuMobile.js"></script>
+  </body>
 </html>
